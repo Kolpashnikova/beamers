@@ -10,7 +10,11 @@
 \definecolor{RowColorEven}{rgb}{1,1,1}
 \usepackage[percent]{overpic}
 \usepackage{tikz}
- 
+\usepackage{multirow}
+\usepackage[export]{adjustbox}
+
+
+
 %Information to be included in the title page:
 \title[Housework Research] %optional
 {Decomposing Housework in the US and Canada}
@@ -18,22 +22,24 @@
 \subtitle{Gendered Division of Housework Tasks}
  
 \author[Kolpashnikova, Kamila] % (optional, for multiple authors)
-{Kamila Kolpashnikova\inst{1}}
+{Kamila Kolpashnikova\inst{1}, Man Yee Kan \inst{2}, \& Jooyeoun Suh \inst{3}}
  
 \institute[NTPU] % (optional)
 {
   \inst{1}%
   Visiting Scholar\\
   Department of Sociology\\
-  National Taipei University  
+  National Taipei University  \\~\\
+  \inst{2}%
+  Department of Sociology\\
+  University of Oxford  \\~\\
+  \inst{3}%
+  Institute for Women's Policy Research 
 }
  
 \date[Seminar 2018] % (optional)
 {NTPU Seminar, 30 May 2018}
  
-\logo{\includegraphics[width=3cm]{ntpu-logo01.jpg}}
-
-
  
  
  
@@ -53,7 +59,8 @@
   \item Other Countries
     \begin{itemize}
   	\item Housework in ISSP Countries, including
-  	\item Gender in Taiwan
+  	\item Housework in Japan
+  	\item Tempograms
   	\end{itemize}
   \item  What are next steps?
   	\begin{itemize}
@@ -254,7 +261,7 @@ in Means}
  & 72.320
  & (0.146)
  & 26.830
- & 26.830
+ & (0.373)
  & 45.49{\textsuperscript{***}}
  \\%
       Cleaning Tasks & 
@@ -377,5 +384,521 @@ in Means}
   \includegraphics[width=\textwidth]{figure8.jpeg}
 \end{frame}
 
-\end{document}
+\begin{frame}
+\frametitle{H2.1. Gender gap explained more in gender-neutral tasks?}
 
+\tiny
+  \begin{block}{\centering\tiny\begin{tabularx}{\dimexpr\textwidth-2\tabcolsep}{@{}X@{}p{0.15\textwidth}@{}X@{}X@{}X@{}X@{}X@{}X@{}}\textcolor{white}{} & {} &
+\textcolor{white}{All} &
+\textcolor{white}{Anglo} & 
+\textcolor{white}{French}& 
+\textcolor{white}{Chinese}& 
+\textcolor{white}{South Asian}& 
+\textcolor{white}{Filipino}
+\end{tabularx}}%
+  \centering
+    \begin{tabularx}{\dimexpr\textwidth-2\tabcolsep}{@{}X@{}p{0.15\textwidth}@{}X@{}X@{}X@{}X@{}X@{}X@{}}%
+      {\multirow{2}{*}{Cook}}
+ & explained
+ & 14{\textsuperscript{***}}
+ & 15{\textsuperscript{***}}
+ & 9{\textsuperscript{***}}
+ & 16{\textsuperscript{**}}
+ & 19{\textsuperscript{***}}
+ & 17{\textsuperscript{***}} \\
+ & \cline{1-7}
+ & unexplained
+ & 86{\textsuperscript{***}}
+ & 85{\textsuperscript{***}}
+ & 91{\textsuperscript{***}}
+ & 84{\textsuperscript{***}}
+ & 81{\textsuperscript{***}}
+ & 83{\textsuperscript{***}}
+ \\~\\
+\hline
+     {\multirow{2}{*}{Clean}}
+ & explained
+ & 20{\textsuperscript{***}}
+ & 21{\textsuperscript{***}}
+ & 14{\textsuperscript{***}}
+ & 11
+ & 24{\textsuperscript{***}}
+ & 28{\textsuperscript{***}} \\
+ & \cline{1-7}
+ & unexplained
+ & 80{\textsuperscript{***}}
+ & 79{\textsuperscript{***}}
+ & 86{\textsuperscript{***}}
+ & 89{\textsuperscript{***}}
+ & 76{\textsuperscript{***}}
+ & 72{\textsuperscript{***}}
+ \\~\\
+\hline
+     {\multirow{2}{*}{Shop}}
+ & explained
+ & 38{\textsuperscript{***}}
+ & 39{\textsuperscript{***}}
+ & 24{\textsuperscript{***}}
+ & -47
+ & 80{\textsuperscript{***}}
+ & 59{\textsuperscript{***}} \\
+ & \cline{1-7}
+ & unexplained
+ & 62{\textsuperscript{***}}
+ & 61{\textsuperscript{***}}
+ & 76{\textsuperscript{***}}
+ & 147
+ & 20
+ & 41{\textsuperscript{**}}
+ \\~\\
+\hline
+
+{\multirow{2}{*}{Main}}
+ & explained
+ & -14{\textsuperscript{***}}
+ & -16{\textsuperscript{***}}
+ & -1
+ & -3
+ & 0
+ & -20{\textsuperscript{***}} \\
+ & \cline{1-7}
+ & unexplained
+ & 114{\textsuperscript{***}}
+ & 116{\textsuperscript{***}}
+ & 101{\textsuperscript{***}}
+ & 103{\textsuperscript{**}}
+ & 100{\textsuperscript{***}}
+ & 120{\textsuperscript{***}} 
+    \end{tabularx}%
+
+  \end{block}%
+  
+\end{frame}
+
+\begin{frame}
+\frametitle{H.2.2. Relative resources more than absolute in gendered housework tasks?}
+  \includegraphics[width=\textwidth]{figure9.jpeg}
+\end{frame}
+
+\begin{frame}
+\frametitle{H.2.2. (US)}
+  \includegraphics[width=\textwidth]{fig1.png}
+\end{frame}
+
+\begin{frame}
+\frametitle{Cleaning (Canada)}
+  \includegraphics[width=\textwidth]{figure10.jpeg}
+\end{frame}
+
+\begin{frame}
+\frametitle{Cleaning US)}
+  \includegraphics[width=\textwidth]{fig2.png}
+\end{frame}
+
+\begin{frame}
+\frametitle{Shopping Canada}
+  \includegraphics[width=\textwidth]{figure11.jpeg}
+\end{frame}
+
+\begin{frame}
+\frametitle{Shopping US}
+  \includegraphics[width=\textwidth]{fig3.png}
+\end{frame}
+
+\begin{frame}
+\frametitle{Cultural explanations?}
+
+Small differences between cultural groups
+
+  \begin{enumerate}
+  \item  In cooking and cleaning tasks among Asian and French Canadians, the autonomy framework testing variable (personal income) can explain more of the gender gap compared to any other cultural groups where it can barely account for any gender gap.
+  \item There are some similarities - evidence of intersectionality but also evidence of cultural differences in meaning of housework types. Eg. shopping tasks among South Asian Canadians  
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+\frametitle{Results}
+
+\tiny
+  \begin{block}{\centering
+  \tiny\begin{tabularx}{\dimexpr\textwidth-2\tabcolsep}{@{}X@{}X@{}X@{}}\textcolor{white}{H1 Differences by housework task?} & \textcolor{white}{H2 Not the same explanation of the gap by tasks} & \textcolor{white}{H3 Cultural differences?}\end{tabularx}}%
+  
+  \centering
+  \rowcolors{1}{RowColorOdd}{RowColorEven}%
+  \begin{tabularx}{\dimexpr\textwidth-2\tabcolsep}
+  {@{}X@{}X@{}X@{}}%
+  H1.1. Gap narrower in gender-neutral. ‘Doing gender’
+ & H2.1 economic factors are in fact more likely to explain the gender-neutral tasks more. ‘Doing gender’
+ & H3.1/2 Some cultural differences.
+ 
+ \\%
+       {}
+ & H2.2. Power matters more in more gendered housework. Relative resources in Canada
+Bargaining with time matters more in more gendered housework. Time Availability in the US
+ & {}
+    \end{tabularx}%
+
+  \end{block}%
+  
+\end{frame}
+
+\begin{frame}
+\frametitle{In a few words,}
+
+Segregation analysis: gender matters in what type of the tasks are assigned to women. Some evidence in support of the ‘doing gender’ framework. \\~\\
+
+GAP analysis: it is power or relative resources that matter more in the explanation of the gender gap in indoor routine housework. In shopping tasks, women and men bargain with time. \\~\\
+
+Cultural differences exist.
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Conclusions (on Part I of the presentation)}
+
+The division of housework is: 
+ \\
+
+\begin{itemize}
+\item task segregation persists $=$ specialization into spheres persists
+\item Labor markets in two countries need to address different issues to achieve gender equality 
+\begin{itemize}
+\item Canada \rightarrow equalize the pay/relative power
+\item US \rightarrow equalize time
+\end{itemize}
+\item Cultural expectations of housework to be associated with women need addressing
+\end{itemize}
+
+\end{frame}
+
+\title[Housework Research] %optional
+{Housework Research and Other Countries}
+ 
+\subtitle{ISSP Countries}
+
+\author[Kolpashnikova, Kamila] % (optional, for multiple authors)
+{Kamila Kolpashnikova\inst{1}, Man Yee Kan \inst{2}, \& Tsui-o Tai \inst{3}}
+ 
+\institute[NTPU] % (optional)
+{
+  \inst{1}%
+  Visiting Scholar\\
+  Department of Sociology\\
+  National Taipei University  \\~\\
+  \inst{2}%
+  Department of Sociology\\
+  University of Oxford  \\~\\
+  \inst{3}%
+  Department of Sociology\\
+  National Taipei University 
+}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\begin{frame}
+\frametitle{Research Question}
+
+studies consistently show that particularly men with more egalitarian views on gender issues are more likely to take on more housework than more traditional men
+ \\~\\
+
+But is it really so?
+
+\end{frame}
+
+\begin{frame}
+\frametitle{How gender attitudes are formed?}
+
+Socialization:
+\begin{itemize}
+\item Peers (Cohort) (Brewster \& Padavic 2000)
+\item Period (Brewster \& Padavic 2000, Carter \& Borch 2005, Ciabattari 2001)
+\item Education (Bolzendahl \& Myers 2004, Brewster \& Padavic 2000, etc.)
+\item Within new ‘roles’ such as being married (Berk, 1985; Gupta 1999; Moore\& Vanneman, 2003)
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Data}
+
+Socialization:
+\begin{itemize}
+\item ISSP data, 2002 and 2012
+\item Countries (25): Australia, Bulgaria, Chile, Czech Republic, Denmark, France, Germany, GB, Hungary, Israel, Japan, Latvia, Mexico, Norway, Philippines, Poland, Portugal, Russia, Slovakia, Slovenia, Spain, Sweden, Switzerland, US, Taiwan
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{ISSP Countries: Women Gender Attitudes and Housework Participation}
+  \includegraphics[width=\textwidth, height=.77\textheight]{women.png}
+\end{frame}
+
+\begin{frame}
+\frametitle{ISSP Countries: Women Gender Attitudes and Housework Participation}
+  \includegraphics[width=\textwidth, height=.77\textheight]{men.png}
+\end{frame}
+
+\begin{frame}
+\frametitle{Results}
+
+Socialization:
+\begin{itemize}
+\item Using 3sls
+\item I better show the output in the paper
+\item we find that egalitarian attitudes can only explain the participation of women in housework. Men, however, who are more egalitarian, eschew housework. 
+
+\end{itemize}
+
+\end{frame}
+
+\title[Housework Research] %optional
+{Routine Housework in Japan}
+ 
+\subtitle{STULA}
+
+\author[Kolpashnikova, Kamila] % (optional, for multiple authors)
+{Kamila Kolpashnikova\inst{1} \& Man Yee Kan \inst{2}}
+ 
+\institute[NTPU] % (optional)
+{
+  \inst{1}%
+  Visiting Scholar\\
+  Department of Sociology\\
+  National Taipei University  \\~\\
+  \inst{2}%
+  Department of Sociology\\
+  University of Oxford 
+}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\begin{frame}
+\frametitle{Japan and US}
+
+\tiny
+  \begin{block}{\centering\tiny\begin{tabularx}{\dimexpr\textwidth-2\tabcolsep}{@{}X@{}p{0.30\textwidth}@{}X@{}X@{}X@{}X@{}X@{}}\textcolor{white}{Variables} & 
+\textcolor{white}{Description} & 
+\textcolor{white}{Mean 
+(Women)}& 
+\textcolor{white}{Robust SE}& 
+\textcolor{white}{Mean 
+(Men)}& 
+\textcolor{white}{Robust SE}& 
+\textcolor{white}{Diff. 
+in Means}
+\end{tabularx}}%
+  \centering
+    \rowcolors{1}{RowColorOdd}{RowColorEven}%
+    \begin{tabularx}{\dimexpr\textwidth-2\tabcolsep}{@{}X@{}p{0.30\textwidth}@{}X@{}X@{}X@{}X@{}X@{}}%
+     Japan
+ & Routine indoor housework (min.)
+ & 154.099
+ & (0.717)
+ & 16.825
+ & (0.238)
+ & 137.274{\textsuperscript{***}}
+ \\%
+     USA
+ & Routine indoor housework (min.)
+ & 105.880
+ & (1.992)
+ & 39.355
+ & (1.278)
+ & 66.525{\textsuperscript{***}}
+  
+    \end{tabularx}%
+
+  \end{block}%
+  
+\end{frame}
+
+\begin{frame}
+\frametitle{Education and Housework Participation of Women in Japan}
+
+\tiny
+  \begin{block}{\centering\tiny\begin{tabularx}{\dimexpr\textwidth-2\tabcolsep}{@{}p{0.30\textwidth}@{}X@{}X@{}X@{}}{} & 
+\textcolor{white}{Model 1} & 
+\textcolor{white}{Model 2}& 
+\textcolor{white}{Model 3}
+\end{tabularx}}%
+  \centering
+    \rowcolors{1}{RowColorOdd}{RowColorEven}%
+    \begin{tabularx}{\dimexpr\textwidth-2\tabcolsep}{@{}p{0.30\textwidth}@{}X@{}X@{}X@{}}%
+     Education in Years
+ & -1.907{\textsuperscript{***}}
+ & 1.737{\textsuperscript{***}}
+ & 0.243
+ \\%
+     Paid Work
+ & -0.129{\textsuperscript{***}}
+ & -0.276{\textsuperscript{***}}
+ & -0.321{\textsuperscript{***}}
+ \\%
+ Income
+ & -13.35{\textsuperscript{***}}
+ & -2.784{\textsuperscript{***}}
+ & 11.09{\textsuperscript{***}}
+ \\%
+ Weekday
+ & 7.146{\textsuperscript{***}}
+ & 30.32{\textsuperscript{***}}
+ & 55.19{\textsuperscript{***}}
+ \\%
+ Age
+ & 10.15{\textsuperscript{***}}
+ & 9.338{\textsuperscript{***}}
+ & 15.29{\textsuperscript{***}}
+ \\%
+ Age*Age
+ & -0.0891{\textsuperscript{***}}
+ & -0.0859{\textsuperscript{***}}
+ & -0.147{\textsuperscript{***}}
+ \\%
+ Constant
+ & -100.6{\textsuperscript{***}}
+ & -37.87{\textsuperscript{**}}
+ & -132.3{\textsuperscript{***}}
+ \\%
+ Observations
+ & 57,638
+ & 43,474
+ & 40,774
+ \\%
+ R-squared
+ & 0.310
+ & 0.163
+ & 0.219
+  
+    \end{tabularx}%
+
+  \end{block}%
+  
+\end{frame}
+
+
+\begin{frame}
+\frametitle{US Education and Housework, Women in 2006}
+
+\tiny
+  \begin{block}{\centering\tiny\begin{tabularx}{\dimexpr\textwidth-2\tabcolsep}{@{}p{0.30\textwidth}@{}X@{}X@{}X@{}}{} & 
+\textcolor{white}{Model 1} & 
+\textcolor{white}{Model 2}& 
+\textcolor{white}{Model 3}
+\end{tabularx}}%
+  \centering
+    \rowcolors{1}{RowColorOdd}{RowColorEven}%
+    \begin{tabularx}{\dimexpr\textwidth-2\tabcolsep}{@{}p{0.30\textwidth}@{}X@{}X@{}X@{}}%
+     Education in Years
+ & -3.201{\textsuperscript{***}}
+ & -4.071{\textsuperscript{*}}
+ & -3.324{\textsuperscript{***}}
+ \\%
+     Paid Work
+ & -0.104{\textsuperscript{***}}
+ & -0.209{\textsuperscript{***}}
+ & -0.245{\textsuperscript{***}}
+ \\%
+ Income
+ & 5.384
+ & -15.06
+ & -24.08{\textsuperscript{***}}
+ \\%
+ Weekday
+ & -3.858
+ & 36.99{\textsuperscript{***}}
+ & 26.31{\textsuperscript{***}}
+ \\%
+ Age
+ & 4.389{\textsuperscript{***}}
+ & 3.544
+ & 7.321{\textsuperscript{***}}
+ \\%
+ Age*Age
+ & -0.0341{\textsuperscript{***}}
+ & -0.0284
+ & -0.0739{\textsuperscript{***}}
+ \\%
+ Constant
+ & 14.42
+ & 94.49{\textsuperscript{*}}
+ & 58.97
+ \\%
+ Observations
+ & 1,904
+ & 1,060
+ & 2,116
+ \\%
+ R-squared
+ & 0.135
+ & 0.168
+ & 0.210
+  
+    \end{tabularx}%
+
+  \end{block}%
+  
+\end{frame}
+
+\begin{frame}
+\frametitle{Quantile Regressions}
+
+\begin{columns}
+\begin{column}{0.5\textwidth}
+	\begin{center}
+   \includegraphics[width=\textwidth, height=.77\textheight]{Japan.png}
+   \end{center}
+\end{column}
+\begin{column}{0.5\textwidth}
+    \begin{center}
+     \includegraphics[width=\textwidth, height=.77\textheight]{US.png}
+     \end{center}
+\end{column}
+\end{columns}
+ 	
+\end{frame}
+
+\title[Housework Research] %optional
+{Tempograms in Time Use Research}
+ 
+\subtitle{Life in Kyrgyzstan Dataset}
+
+\author[Kolpashnikova, Kamila] % (optional, for multiple authors)
+{Kamila Kolpashnikova\inst{1} \& Man Yee Kan \inst{2}}
+ 
+\institute[NTPU] % (optional)
+{
+  \inst{1}%
+  Visiting Scholar\\
+  Department of Sociology\\
+  National Taipei University  \\~\\
+  \inst{2}%
+  Department of Sociology\\
+  University of Oxford 
+}
+
+\begin{frame}
+\maketitle
+\end{frame}
+                        
+\begin{frame}
+\frametitle{Tempogram for Women}
+
+   \includegraphics[width=\textwidth, height=.77\textheight]{tempW.png}
+ 	
+\end{frame}
+
+\begin{frame}
+\frametitle{Tempogram for Men}
+
+   \includegraphics[width=\textwidth, height=.77\textheight]{tempM.png}
+ 	
+\end{frame}
+
+\end{document}
